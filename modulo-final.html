@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link 
+    rel="stylesheet" 
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+    crossorigin="anonymous">
+    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <title>Landing Page HTML</title>
+
+    <style>
+      * {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+
+  width: 100%;
+  height: 100%;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+section {
+  padding-top: 156px !important;
+}
+
+.form-control::-webkit-input-placeholder, .form-select {
+  color: var(--dark);
+  font-weight: 500;
+}
+
+textarea {
+  resize: none;
+}
+
+footer {
+  background-color: rgba(0,0,0,0.8);
+  padding: 315px 49px 49px 49px;
+  margin-top: 156px;
+}
+
+.btn-media {
+  width: 40px;
+  height: 40px;
+  color: rgba(0,0,0,0.8);
+}
+
+hr {
+  border-top: 1px solid #999999;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+    </style>
+  </head>
+  <body>
+    <!--
+    <h1 class="mt-5">Olá, mundo!</h1>
+    <button type="button" class="btn btn-danger px-5 mt-5 ml-5">Botão</button>
+     mt= margin-top, ml= margin-left-->
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+    <section class="container">
+        <div class="row px-3">
+            <div class="col">
+              <img src="./assets/logo-conquer-plus.png" class="mb-5" alt="Logo Conquer Plus Branco" title="Logo Conquer Plus Branco">
+              <h1 class="display-3">Nós Precisamos<br>de você</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est eum ducimus sint adipisci quaerat fuga nobis aperiam consequuntur sit sequi nisi iure voluptatum, recusandae ipsam. Voluptates voluptate accusantium doloribus aliquam?
+              </p> 
+              <button type="button" class="btn btn-danger px-5">Quero fazer parte!</button>
+            </div>
+            <div class="col">
+              <img src="./assets/man-with-triangle.png" alt="Man with triangle" class="w-100">
+            </div>
+        </div>
+    </section>
+    <!--primeira seção-->
+
+    <section class="mx-5">
+      <div class="row px-5 gx-5">
+        <div class="col-3">
+          <img src="./assets/plants.png" alt="Plantas" class="w-100">
+        </div>
+        <div class="col d-flex flex-column justify-content-center">
+          <h1>Como é trabalhar na Conquer</h1>
+          <div class="d-flex flex-row justify-content-between nt-5 gx-3 gap-5">
+            <div class="border-start border-danger border-4 px-4 py-3 shadow">
+              <div class="d-flex align-items-center gap-4 mb-3">
+                <img src="./assets/tiago-calado.png" alt="Thiago Calado">
+                <div class="d-flex flex-column">
+                  <span class="fw-bold text-danger fs-5">Thiago Calado</span>
+                  <span>Desenvolvedor FullStack</span>
+                </div>
+              </div>
+              <span>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure voluptates doloremque blanditiis aperiam nisi sunt? Dolor, consequuntur quidem porro delectus velit minus unde consequatur, dolorem, alias corrupti officia atque ea.
+              </span>
+            </div>
+            <div class="border-start border-danger border-4 px-4 py-3 shadow">
+              <div class="d-flex align-items-center gap-4 mb-3">
+                <img src="./assets/guilherme-illescas.png" alt="Guilherme Illescas">
+                <div class="d-flex flex-column">
+                  <span class="fw-bold text-danger fs-5">Guilherme Illescas</span>
+                  <span>Desenvolvedor FullStack</span>
+                </div>
+              </div>
+              <span>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam quis doloribus dolores consequuntur, vitae neque dignissimos voluptas voluptatibus possimus itaque soluta aliquid quod enim, distinctio ex eos sapiente ab odit!
+              </span>
+            </div>
+            <div class="border-start border-danger border-4 px-4 py-3 shadow">
+              <div class="d-flex align-items-center gap-4 mb-3">
+                <img src="./assets/wellington-costa.png" alt="Wellington Costa">
+                <div class="d-flex flex-column">
+                  <span class="fw-bold text-danger fs-5">Wellington Costa</span>
+                  <span> Desenvolvedor FullStack</span>
+                </div>
+              </div>
+              <span>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus facere accusamus incidunt hic, maxime sapiente provident dolore architecto error alias similique sunt natus eaque est perspiciatis consectetur dicta labore animi.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+    <section class="container">
+      <div class="d-flex align-items-center justify-content-between">
+        <div class="col-4">
+          <form class="d-flex flex-column gap-4">
+            <div class="form-group">
+              <input
+              type="text"
+              class="form-control border-dark"
+              id="nome"
+              placeholder="Seu nome"
+              />
+            </div>
+
+            <div class="form-group">
+              <input
+              type="tel"
+              class="form-control border-dark"
+              id="telefone"
+              placeholder="Celular"
+              />
+            </div>
+
+            <div class="form-group">
+              <input
+              type="email"
+              class="form-control border-dark"
+              id="email"
+              placeholder="exemplo@gmail.com"
+              />
+            </div>
+
+            <div class="form-group">
+              <input
+              type="text"
+              class="form-control border-dark"
+              id="experiencia"
+              placeholder="Tempo de experiência"
+              />
+            </div>
+            <div class="form-group">
+              <select id="vaga" class="form-select border-dark">
+                <option select disable value="Linguagens de Programação">Linguagens de Programação</option>
+                <option value="1">C#</option>
+                <option value="2">Java</option>
+                <option value="3">PHP</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <input
+              type="text"
+              class="form-control border-dark"
+              id="portifolio"
+              placeholder="Link do portifólio/github"
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+               id="apresentacao"
+               rows="6"
+               class="form-control border-dark"
+               placeholder="Escreva uma apresentação sua"
+
+               ></textarea>
+            </div>
+            <div>
+              <label for="arquivo">
+                <i class="bi-upload">
+                  <span class="p-2">Anexe seu currículo aqui:</span>
+                </i>
+              </label>
+              <input type="file" class="form-control border-dark" id="arquivo">
+            </div>
+            <br>
+            <button class="btn btn-danger px-5 rounded-pill" type="submit">
+              Enviar
+            </button>
+          </form>
+        </div>
+        <div class="col-4">
+          <h1>Vem ser Dev <br>Conquer!</h1>
+          <img src="./assets/girl-with-shapes.png" alt="Mulher e formas geométricas" class="nt-4 mb-4">
+          <h6 class="small fw-normal w-75">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique quos, odio itaque porro deleniti nulla necessitatibus magni. Quo necessitatibus temporibus quia tempora, aliquam at eius magni, repudiandae, veniam cupiditate earum.
+          </h6>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="d-flex justify-content-between">
+        <div class="col-3">
+          <img src="./assets/logo-conquer-plus-white.png" alt="Logo ConquerPlus" class="mb-3">
+          <p class="small text-muted">Para saber mais, acompanhe a Conquer nas redes sociais!</p>
+          <div class="d-flex gap-3">
+
+            <a href="https://www.facebook.com" target="_blank" class="btn btn-light btn-media rounded-circle">
+              
+              <i class="bi bi-facebook"></i>
+          
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="btn btn-light btn-media rounded-circle">
+              <i class="b1 bi-instagram"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="btn btn-light btn-media rounded-circle">
+              
+              <i class="bi bi-twitter"></i>
+          
+            </a>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="row">
+            <div class="col">
+              <p class="fw-bold text-danger">A Empresa</p>
+              <ul>
+                <li>
+                  <a href="#" class="text-muted text-decoration-none">Sobre Nós</a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-muted text-decoration-none">Carreiras</a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-muted text-decoration-none">Vagas</a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-muted text-decoration-none">Política de Privacidade</a>
+                </li>
+
+              </ul>
+            </div>
+
+            <div class="col">
+              <p class="fw-bold text-danger">Contato</p>
+              <ul>
+                <li>
+                  <a href="#" class="text-muted text-decoration-none">FAQ</a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-muted text-decoration-none">E-mail</a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-muted text-decoration-none">Suporte</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col">
+              <p class="fw-bold text-danger">Mais</p>
+              <ul>
+                <li>
+                  <a href="#" class="text-muted text-decoration-none">Escola Conquer</a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-muted text-decoration-none">Conquer Plus</a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-muted text-decoration-none">Conquer English</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="d-flex justify-content-between">
+        <span class="text-muted">Copyright, Escola Conquer 2022. All rights reserved.</span>
+        <a href="#" class="text-muted text-decoration-none">Terms & Conditions</a>
+      </div>
+    </footer>
+
+
+
+
+
+
+</body>
+</html>
